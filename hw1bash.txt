@@ -1,0 +1,57 @@
+1) Посмотреть где я
+pwd
+
+2) Создать папку 
+mkdir hw1
+
+3) Зайти в папку  
+cd hw1
+
+4) Создать 3 папки 
+mkdir gitbash bash script
+
+5) Зайти в любую папку 
+cd gitbash
+
+6) Создать 5 файлов (3 txt, 2 json)  
+touch gitbash.txt bash.txt script.txt gitbash.json bash.json
+
+7) Создать 3 папки 
+mkdir gitbash1 bash1 script1
+8. Вывести список содержимого папки 
+ls -la
+
+9) + Открыть любой txt файл 
+cat >> gitbash.txt
+vim gitbash.txt
+nano gitbash.txt
+
+10) + Написать туда что-нибудь, любой текст. -----> +
+11) + Сохранить и выйти. -----> +
+
+12) Выйти из папки на уровень выше 
+cd ..
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку. 
+mv gitbash/gitbash.txt gitbash/gitbash.json bash
+
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку. 
+cp gitbash/bash.txt gitbash/bash.json script
+
+15) Найти файл по имени 
+find -name bash.txt
+
+16) Просмотреть содержимое в реальном времени. 
+tail -f bash/gitbash.txt
+
+17) Вывести несколько первых строк из текстового файла  
+head -2 bash/gitbash.txt
+
+18) Вывести несколько последних строк из текстового файла 
+tail -2 bash/gitbash.txt
+
+19) Просмотреть содержимое длинного файла.
+less gitbash.txt
+
+20) Вывести дату и время 
+date 
